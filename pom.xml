@@ -68,6 +68,7 @@
           <!-- Gate B: Enforce 80% coverage threshold -->
           <execution>
             <id>check</id>
+            <phase>test</phase>
             <goals>
               <goal>check</goal>
             </goals>
